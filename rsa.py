@@ -108,7 +108,7 @@ def decrypt(pk, ciphertext):
 
 if __name__ == '__main__':
     try:
-        connection = pymysql.connect(host='localhost',user='root',password='vanshr123@&',db='rsa',autocommit=True)
+        connection = pymysql.connect(host='localhost',user='root',password='######',db='rsa',autocommit=True)
         cursor = connection.cursor()
         print("database connected")
     except Exception as e:
