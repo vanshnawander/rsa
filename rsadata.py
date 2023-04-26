@@ -2,7 +2,7 @@ import pandas as pd
 import pymysql
 import csv
 try:
-        connection = pymysql.connect(host='localhost',user='root',password='vanshr123@&',db='rsa',autocommit=True)
+        connection = pymysql.connect(host='localhost',user='root',password='######',db='rsa',autocommit=True)
         cursor = connection.cursor()
         print("databasse connected")
 except Exception as e:
